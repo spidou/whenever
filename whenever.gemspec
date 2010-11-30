@@ -66,18 +66,18 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<aaronh-chronic>, [">= 0.3.9"])
-      s.add_runtime_dependency(%q<activesupport>, [">= 2.3.4"])
+      s.add_runtime_dependency(%q<activesupport>, [">= 2.2.3"])
       s.add_development_dependency(%q<shoulda>, [">= 2.1.1"])
       s.add_development_dependency(%q<mocha>, [">= 0.9.5"])
     else
       s.add_dependency(%q<aaronh-chronic>, [">= 0.3.9"])
-      s.add_dependency(%q<activesupport>, [">= 2.3.4"])
+      s.add_dependency(%q<activesupport>, [">= 2.2.3"])
       s.add_dependency(%q<shoulda>, [">= 2.1.1"])
       s.add_dependency(%q<mocha>, [">= 0.9.5"])
     end
   else
     s.add_dependency(%q<aaronh-chronic>, [">= 0.3.9"])
-    s.add_dependency(%q<activesupport>, [">= 2.3.4"])
+    s.add_dependency(%q<activesupport>, [">= 2.2.3"])
     s.add_dependency(%q<shoulda>, [">= 2.1.1"])
     s.add_dependency(%q<mocha>, [">= 0.9.5"])
   end
